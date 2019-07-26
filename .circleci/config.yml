@@ -9,5 +9,5 @@ jobs:
       - run:
           command: echo 'sudo apt-get install lzma'
       - run:
-          command: apt-get install lzma
+          command: apt-get install liblzma-dev
       - run: tox
