@@ -6,8 +6,4 @@ jobs:
       - image: themattrix/tox
     steps:
       - checkout
-      - run:
-          command: echo 'sudo apt-get install lzma'
-      - run:
-          command: apt-get install liblzma
       - run: tox

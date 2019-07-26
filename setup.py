@@ -19,6 +19,7 @@ install_requires = [
     'torchvision==0.2.1',
     'tqdm>=4.28.1',
     'numpy>=1.15.4',
+    'pylzma>=0.5.0',
 ]
 
 setup_requires = [
