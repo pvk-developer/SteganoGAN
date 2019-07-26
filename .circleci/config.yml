@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+        name: echo-deps
+        command: echo 'sudo apt-get install lzma'
+      - run:
         name: install-deps
-        command: apt-get install lzma
+        command: sudo apt-get install lzma
       - run: tox
