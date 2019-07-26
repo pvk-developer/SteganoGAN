@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-        command: echo 'sudo apt-get install lzma'
+          command: echo 'sudo apt-get install lzma'
       - run:
-        command: sudo apt-get install lzma
+          command: sudo apt-get install lzma
       - run: tox
